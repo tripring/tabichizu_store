@@ -1,0 +1,48 @@
+.account{
+  display: flex;
+  .title{
+    color : white
+  }
+  .accountContainer{
+    flex:6;
+    .widgets, .charts{
+      display: flex;
+      padding: 20px;
+      gap:20px;
+    }
+
+    .charts{
+      padding:5px 20px;
+    }
+
+    .listContainer{
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201,201,201,0.47);
+      padding:20px;
+      margin: 20px;
+
+      .listTitle{
+        font-weight: bold;
+        color:rgb(10,10,10);;
+        margin-bottom: 15px;
+      }
+
+      .accountInfo{
+        width:100%;
+
+        th,td{
+          border: 1px solid #ccc;
+          padding: 20px;
+        }
+
+        th{
+          width:20%;
+          font-weight: bold;
+          background-color: #dedede; 
+        }
+
+
+      }
+    }
+  }
+}

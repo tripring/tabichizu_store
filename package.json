@@ -1,0 +1,45 @@
+{
+  "name": "2022-06-13-with-riri",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@emotion/react": "11.9.3",
+    "@emotion/styled": "11.9.3",
+    "@material-ui/core": "4.12.4",
+    "@material-ui/pickers": "3.3.10",
+    "@mui/icons-material": "5.8.3",
+    "@mui/material": "5.8.3",
+    "@mui/x-date-pickers": "5.0.0-beta.3",
+    "@reduxjs/toolkit": "1.8.2",
+    "axios": "0.27.2",
+    "date-fns": "2.29.1",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-loader-spinner": "5.1.7-beta.1",
+    "react-loading": "2.0.3",
+    "react-redux": "8.0.2",
+    "react-router-dom": "6.3.0",
+    "react-scripts": "4.0.0",
+    "recharts": "2.1.10",
+    "redux": "4.2.0",
+    "redux-persist": "6.0.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
